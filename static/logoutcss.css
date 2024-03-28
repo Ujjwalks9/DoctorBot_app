@@ -34,17 +34,11 @@
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
-    text-decoration: none;
     text-transform: uppercase;
   }
-  nav ul li a.active,nav ul li a:hover{
+  a.active,a:hover{
     background: #1ad0e8;
     transition: .5s;
-    img{
-      background-color: #1ad0e8;    
-      transition: .5s;
-      border-radius: 3px;
-    }
   }
   .checkbtn{
     font-size: 30px;
@@ -89,7 +83,7 @@
     nav ul li a{
       font-size: 20px;
     }
-    nav ul li a:hover,nav ul li a.active{
+    a:hover,a.active{
       background: none;
       color: #1ad0e8;
     }
@@ -101,70 +95,50 @@
     background: url(bg1.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
-
   }
 
-  .welcome{
-    width: 630px;
-    height: 100px;
-    padding: 30px;
-    font-size: 50px;
-    color: #1ad0e8;
-    position: fixed;
-    top: 200px;
-    bottom: 0px;
-    right: 0px;
-    left: 230px;
-    animation: fadein 2s;
-  }
-
-  .introduction{
-    width: 600px;
-    height: 250px;
-    padding: 50px;
-    position: fixed;
-    top: 270px;
-    bottom: 0px;
-    right: 0px;
-    left: 220px;
-    color: rgb(53, 53, 53);
-    animation: fadein 2.5s;
-  }
-
-#doctorbot{
-  height: 450px;
-  width: 450px;
-  position: fixed;
-  top: 120px;
-  left: 800px;
-  animation: fadein 2.5s;
-}
-
-@keyframes fadein{
-  5% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-
-.form-outline {
-    margin-bottom: 1rem; /* Add margin between form inputs */
-}
-
-.card {
+.confirm-box{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
     height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
-
-.icon{
-    width: 33px;
-    height: 33px;
-    margin-right: 10px;
+.message-box{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border-radius:10px ;
 }
-
-/* Adjust input box width */
-.form-control {
-    width: 250px; /* Adjust the width as needed */
+.message-box p{
+    text-align: center;
+    font-size: 24px;
 }
-
+.message-box form{
+    margin-top: 40px;
+}
+.message-box button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+.message-box button#yes{
+    background: green;
+    color: white;
+}
+.message-box button#no{
+    background: red;
+    color: white;
+}
 .dropbtn {
   /* background-color: #3498DB;
   color: white;

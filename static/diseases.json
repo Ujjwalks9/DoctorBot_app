@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Pneumonia",
+        "symptoms": [
+            "Chest Indrawing",
+            "Fast Breathing",
+            "Cough",
+            "Difficulty in Breathing",
+            "Stridor"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Diarrhea",
+        "symptoms": [
+            "Dehydrated"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Malaria",
+        "symptoms": [
+            "Stiff Neck",
+            "Bulging Fontanelle",
+            "Fever"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Measles",
+        "symptoms": [
+            "Clouding of Cornea",
+            "Deep or Extensive Ulcers",
+            "Pus Draining From Eye",
+            "Mouth Ulcers"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Mastoiditis",
+        "symptoms": [
+            "Tendor Swelling Behind Ear"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Ear Infection",
+        "symptoms": [
+            "Ear pain"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Malnutrition",
+        "symptoms": [
+            "Visible Severe Wasting",
+            "Edema of Both Feet",
+            "Underweight"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Anemia",
+        "symptoms": [
+            "Palmar Pallor"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    },
+    {
+        "name": "Dehydration",
+        "symptoms": [
+            "Unconscious",
+            "Sunken Eyes",
+            "Not Able to Drink",
+            "Skin Pinch Goes Back Slowly",
+            "Restless",
+            "Irritable",
+            "Thirsty",
+            "Blood in the Stool"
+        ],
+        "button": "<button type=\"button\" class=\"btn btn-primary\">Update</button>"
+    }
+]
